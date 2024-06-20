@@ -54,7 +54,7 @@ h1 + h3 {
     font-size: 30px;
 }
 
-/* Chọn tất cả các thẻ đằng sau thẻ đầu tiên */
+/* Chọn tất cả các thẻ đằng sau thẻ được chọn đầu tiên*/
 h1 ~ h3 {
     color: black;
 }
