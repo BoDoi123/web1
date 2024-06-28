@@ -3,7 +3,7 @@
 
     background-image: none;
 
-    background-image: url(../background_images/background.jpg);
+    background-image: url(../bg_images/background.jpg);
 
     /* Trạng thái mặc định */
     background-repeat: repeat;
@@ -18,7 +18,7 @@
     background-repeat: repeat-y;
 
     /* Cấu trúc lặp lại - cách vận dụng */
-    background-image: url(../background_images/small_bg.jpg);
+    background-image: url(../bg_images/small_bg.jpg);
 
     background-repeat: repeat;
 
@@ -29,5 +29,5 @@
 
                 => Do đó ưu tiên ảnh trước là ảnh .png (do có thuộc tính trong suốt)
     */
-    background-image: url(../background_images/leaf.png), url(../background_images/small_bg.jpg);
+    background-image: url(../bg_images/leaf.png), url(../bg_images/small_bg.jpg);
 }
