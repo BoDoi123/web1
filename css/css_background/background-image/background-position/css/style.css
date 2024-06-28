@@ -4,7 +4,7 @@
 
     border: 5px dashed blue;
 
-    background-image: url(https://st.quantrimang.com/photos/image/2021/04/06/cap-ve-cho-cung-1.jpg);
+    background-image: url("https://st.quantrimang.com/photos/image/2021/04/06/cap-ve-cho-cung-1.jpg");
 
     /* Điểm bắt đầu là góc trên bên phải */
     background-position: top right;
