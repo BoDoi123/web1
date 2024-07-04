@@ -3,7 +3,7 @@ h2 {
 
     position: sticky;
 
-    /* Thêm thuộc tính top: 0; để thẻ h2 dính vào phần top */
+    /* Thêm thuộc tính top: 0; để thẻ h2 dính vào phần top của box cha gần nhất có scroll bar */
     top: 0;
 }
 
