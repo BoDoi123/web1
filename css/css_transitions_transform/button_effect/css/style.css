@@ -61,8 +61,6 @@ button {
 
 .btn-3:hover::before {
     width: 100%;
-
-    background: orange;
 }
 
 /* 4. Chuyển màu từ trái qua phải rồi chạy tiếp */
@@ -90,9 +88,33 @@ button {
 .btn-4:hover::before {
     width: 100%;
 
-    background: orange;
-
     left: 0;
 }
 
-/*  */
+/* 5. Chuyển màu từ trên xuống dưới rồi chạy tiếp */
+.btn-5 {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.btn-5::before {
+    content: "";
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: 0;
+
+    background: orange;
+
+    transition: all 0.5s linear;
+}
+
+.btn-5:hover::before {
+    height: 100%;
+
+    top: 0;
+}
